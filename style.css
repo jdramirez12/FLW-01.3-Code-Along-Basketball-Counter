@@ -1,0 +1,42 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+body{
+    font-family: 'Bebas Neue', cursive;
+    background-color: #ff5e4f;
+}
+
+.main {
+    display: flex;
+    text-align: center;
+    
+}
+
+.main div {
+    flex: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+}
+
+.resetbtn{
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+}
+
+button {
+    padding: 10px;
+    margin: 10px 0;
+    font-family: 'Abel', sans-serif;
+}
+
+p {
+    font-size: 45px;
+}
+
+h1{
+     text-align: center;
+}
